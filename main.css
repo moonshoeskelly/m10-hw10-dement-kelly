@@ -1,3 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Font Families
+font-family: 'Fredoka One', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+body {
+  background-color: #0375B4;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  color: #ffce00;
+  font-size: 2rem;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 2.5px;
+}
+
+main {
+  width: 600px;
+  max-width: 85%;
+  margin: 0 auto;
+  flex: 1 0 auto;
+}
+
+.cloud {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 10px 10px 0px 10px;
+}
+
+.temp-box {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 1.115rem;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 5px;
+}
+
+span {
+  color: #262228;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+}
 
 .hide {
   opacity: 0;
@@ -5,4 +76,28 @@
 .show {
   opacity: 1;
   transition: opacity 1s;
+}
+
+footer {
+  background-color: #007849;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+@media (min-width: 568px) {
+
+  .cloud {
+    padding: 15px 15px 0px 15px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p, span {
+    font-size: 1.1rem;
+  }
+
 }
