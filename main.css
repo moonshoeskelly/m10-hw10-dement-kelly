@@ -52,9 +52,10 @@ main {
 h2 {
   color: #fff;
   margin-bottom: 10px;
-  font-size: 1.115rem;
-  font-family: 'Fredoka One', cursive;
+  font-size: 1.15rem;
+  font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 
 p {
@@ -79,9 +80,22 @@ span {
 }
 
 footer {
-  background-color: #007849;
+  background-color: #004494;
   height: 300px;
   flex-shrink: 0;
+  padding-top: 30px;
+}
+
+/*
+footer h2 {
+  font-family: 'Lato', sans-serif;
+}
+*/
+
+.water {
+  width: 600px;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 @media (min-width: 568px) {
